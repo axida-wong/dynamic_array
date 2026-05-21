@@ -17,9 +17,9 @@ typedef struct dyarr
 
 void dyarr_init(Dyarr *da, size_t elem_size);
 
-void *dyarr_get(Dyarr *da, int i);
+void *dyarr_get(Dyarr *da, size_t i);
 
-void dyarr_set(Dyarr *da, int i, void *value);
+void dyarr_set(Dyarr *da, size_t i, void *value);
 
 void dyarr_append(Dyarr *da, void *value);
 
